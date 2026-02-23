@@ -33,4 +33,7 @@ end
     return unsafe_trunc(T, floor(x))
 end
 
+include("Mean.jl")
+include("Generated.jl")
+
 end # module EtherMaths
